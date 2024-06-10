@@ -1,0 +1,89 @@
+
+body {
+    background-color: #344a72;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    margin-top:30px;
+    background-color: white;
+    border-radius: 3px;
+  }
+  
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  .h1Reg {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .h4Reg {
+    text-align: center;
+    color: #212EA0;
+  }
+  
+ 
+  
+.label {
+    display: flex;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  
+.inputReg{
+    width: 85%;
+    outline: none;
+    border: none;
+    background: #dfe9f5;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .inputReg[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+  }
+  .pReg {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .paraR-2 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+.hrefR {
+    color: #212EA0;
+  }
+
+.hrefR:hover{
+    text-decoration: underline;
+}
+.pReg a:hover{
+  text-decoration: underline;
+}
+
+.pReg a{
+  color: #212EA0;
+}
+
+form .btn {
+  margin-top: 5px;
+  padding: 10px 30px;
+}

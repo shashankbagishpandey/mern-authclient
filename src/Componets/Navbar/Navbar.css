@@ -1,0 +1,155 @@
+
+nav {
+    padding: 4px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    z-index: 10;
+}
+/* 
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-item a:hover {
+    text-decoration: underline;
+} */
+
+
+.logo{
+    width: auto;
+    height: 55px;
+    padding: 0;
+    position: relative;
+    margin-top:5px;
+    left: -60px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color:#fff;
+    list-style: none;
+
+}
+
+/* .toggle-icon{
+    display: none;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+
+} */
+
+
+.search-box{
+
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.search-box input{
+    padding: 6opx;
+    background:transparent;
+    border: 0;
+    outline: 0;
+    color:#fff;
+    font-size: 18px;
+    max-width: 200px;
+}
+.search-box input::placeholder{
+
+    color:black;
+     
+}
+
+.search-box img{
+    width: 18px;
+    cursor: pointer;
+}
+
+img.toggle-icon {
+    width: 34px;
+}
+
+.dark-nav{
+    background: #212EA0;
+    transition:0.5s;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/**------------Media Query ----------------*/
+
+
+@media only screen and (max-width :1000px) {
+    .logo{
+        width: 155px;
+       left: -20px;
+    }
+    nav ul li{
+        margin: 10px 15px;
+
+    }
+}
+
+@media only screen and (max-width :863px) {
+    .logo{
+        right:3500px;
+    }
+    nav {
+        padding: 15px 0;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #212EA0;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px 40px;
+    }
+
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .hide-mobile-menu{
+        right:-200px;
+    }
+}
