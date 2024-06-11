@@ -11,7 +11,7 @@ import { UserContextProvider } from "../context/userContext";
 import Dashboard from "./pages/Dashboard";
 // axios.defaults.baseURL = "http://localhost:8000";
 axios.defaults.baseURL = "https://mern-authserver.onrender.com";
-axios.defaults.withCredentials = true;
+axios.defaults.withCredentials = false;
 function App() {
 
   return (
